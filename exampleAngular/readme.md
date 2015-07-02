@@ -1,6 +1,4 @@
-# Foundation for Apps Template
-
-This is the default template project for Foundation for Apps, powered by Gulp, Angular, and libsass. It provides you with a basic template to get started with Foundation for Apps and Angular.
+# Foundation for Apps Demo
 
 If you're already an Angular developer, you may instead want to install the components into your own stack using Bower: `bower install foundation-apps`
 
@@ -16,17 +14,6 @@ You'll need the following software installed to get started.
 
 ## Get Started
 
-Clone this repository, where `app` is the name of your app.
-
-```bash
-git clone https://github.com/zurb/foundation-apps-template.git app
-```
-
-Change into the directory.
-
-```bash
-cd app
-```
 
 Install the dependencies. If you're running Mac OS or Linux, you may need to run `sudo npm install` instead, depending on how your machine is configured.
 
@@ -38,7 +25,7 @@ bower install
 While you're working on your project, run:
 
 ```bash
-npm start
+gulp
 ```
 
 This will compile the Sass and assemble your Angular app. **Now go to `localhost:8080` in your browser to see it in action.** When you change any file in the `client` folder, the appropriate Gulp task will run to build new files.
