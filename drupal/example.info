@@ -1,0 +1,61 @@
+name =  Example
+description = Powered By Positive
+core = 7.x
+distribution_name = Example
+
+; The exclusive flag auto-selects the profile during installation, if there
+; are no other exclusive ones.
+exclusive = TRUE
+
+;core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = taxonomy
+dependencies[] = simpletest
+
+;contrib
+
+dependencies[] = views
+dependencies[] = panels
+dependencies[] = ctools
+dependencies[] = services
+dependencies[] = rest_server
+dependencies[] = libraries
+dependencies[] = token
+dependencies[] = pathauto
+dependencies[] = entity
+dependencies[] = imagecache_actions
+dependencies[] = feeds
+dependencies[] = rules
+dependencies[] = features
+dependencies[] = uuid
+dependencies[] = link
+dependencies[] = eck
+dependencies[] = profile2
+dependencies[] = entityreference
+dependencies[] = services_entity
+dependencies[] = services_entityreference
+dependencies[] = image_url_formatter 
+dependencies[] = link
+
+;custom
+dependencies[] = servicesexample
+
+; System Requirements
+php = 5.4
+php_memory_limit = 256M

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ServicesExample feature.
+ */
+
+include_once 'servicesexample.features.inc';
