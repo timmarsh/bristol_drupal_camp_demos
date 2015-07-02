@@ -33,5 +33,5 @@ This will compile the Sass and assemble your Angular app. **Now go to `localhost
 To run the compiling process once, without watching any files, use the `build` command.
 
 ```bash
-npm start build
+gulp build
 ```
