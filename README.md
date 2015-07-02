@@ -10,7 +10,7 @@ npm install -g cordova
 npm install ios-sim -g
 ```
 
-cd into exampleApp
+cd into exampleAngular
 
 ```
 bower install
@@ -21,10 +21,15 @@ npm install
 
 ```
 gulp build
+```
+and you'll get a browser open on the running app (it pulls in the weather for bristol)
+
+```
 gulp browser-sync-build
 ```
 
-and you get a browser sync on the build front end app
+and you get a browser sync on the build front end app.
+
 
 if you've got the drupal backend running 
 
