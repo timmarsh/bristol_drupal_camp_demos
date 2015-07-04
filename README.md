@@ -76,7 +76,7 @@ There is a small demo app in exampleAngularDrupal , create some nodes in the tes
 You can then navigate to 192.168.33.10/client to see the app running
 
 ## Building an ios app
-its build using cordova - so you'll need to install that. 
+its built using cordova - so you'll need to install that. 
 
 then cd into cordova/example
 
